@@ -56,9 +56,9 @@ class CombinedLibrary extends StatelessWidget {
           controller: tabCon.tabController,
           tabs: [
             Tab(text: "songs".tr),
-            Tab(text: "playlists".tr),
+            //Tab(text: "playlists".tr),
             Tab(text: "albums".tr),
-            Tab(text: "artists".tr),
+            //Tab(text: "artists".tr),
           ],
         ),
         title: Padding(

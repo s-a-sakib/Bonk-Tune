@@ -1,0 +1,344 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.anandnet.harmonymusic"
+4    android:versionCode="18"
+5    android:versionName="1.10.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/home/noob_coder/Desktop/Bonk-Tune/android/app/src/main/AndroidManifest.xml:100:5-66
+15-->/home/noob_coder/Desktop/Bonk-Tune/android/app/src/main/AndroidManifest.xml:100:22-64
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/home/noob_coder/Desktop/Bonk-Tune/android/app/src/main/AndroidManifest.xml:94:5-81
+16-->/home/noob_coder/Desktop/Bonk-Tune/android/app/src/main/AndroidManifest.xml:94:22-78
+17    <uses-permission
+17-->/home/noob_coder/Desktop/Bonk-Tune/android/app/src/main/AndroidManifest.xml:95:5-80
+18        android:name="android.permission.READ_EXTERNAL_STORAGE"
+18-->/home/noob_coder/Desktop/Bonk-Tune/android/app/src/main/AndroidManifest.xml:95:22-77
+19        android:maxSdkVersion="32" />
+19-->[:file_picker] /home/noob_coder/Desktop/Bonk-Tune/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-35
+20    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+20-->/home/noob_coder/Desktop/Bonk-Tune/android/app/src/main/AndroidManifest.xml:96:5-110
+20-->/home/noob_coder/Desktop/Bonk-Tune/android/app/src/main/AndroidManifest.xml:96:22-79
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->/home/noob_coder/Desktop/Bonk-Tune/android/app/src/main/AndroidManifest.xml:97:5-67
+21-->/home/noob_coder/Desktop/Bonk-Tune/android/app/src/main/AndroidManifest.xml:97:22-65
+22    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+22-->/home/noob_coder/Desktop/Bonk-Tune/android/app/src/main/AndroidManifest.xml:98:5-76
+22-->/home/noob_coder/Desktop/Bonk-Tune/android/app/src/main/AndroidManifest.xml:98:22-74
+23    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+23-->/home/noob_coder/Desktop/Bonk-Tune/android/app/src/main/AndroidManifest.xml:99:5-91
+23-->/home/noob_coder/Desktop/Bonk-Tune/android/app/src/main/AndroidManifest.xml:99:22-89
+24    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+24-->/home/noob_coder/Desktop/Bonk-Tune/android/app/src/main/AndroidManifest.xml:101:5-94
+24-->/home/noob_coder/Desktop/Bonk-Tune/android/app/src/main/AndroidManifest.xml:101:22-92
+25
+26    <queries>
+26-->[:file_picker] /home/noob_coder/Desktop/Bonk-Tune/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-19:15
+27        <intent>
+27-->[:file_picker] /home/noob_coder/Desktop/Bonk-Tune/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-18:18
+28            <action android:name="android.intent.action.GET_CONTENT" />
+28-->[:file_picker] /home/noob_coder/Desktop/Bonk-Tune/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-72
+28-->[:file_picker] /home/noob_coder/Desktop/Bonk-Tune/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:21-69
+29
+30            <data android:mimeType="*/*" />
+30-->[:file_picker] /home/noob_coder/Desktop/Bonk-Tune/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+30-->[:file_picker] /home/noob_coder/Desktop/Bonk-Tune/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:19-41
+31        </intent>
+32        <intent>
+32-->[androidx.media2:media2-session:1.2.1] /home/noob_coder/.gradle/caches/transforms-3/214653246961eb5c1972a874a72199ce/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:25:9-27:18
+33            <action android:name="android.media.browse.MediaBrowserService" />
+33-->[androidx.media2:media2-session:1.2.1] /home/noob_coder/.gradle/caches/transforms-3/214653246961eb5c1972a874a72199ce/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:26:13-79
+33-->[androidx.media2:media2-session:1.2.1] /home/noob_coder/.gradle/caches/transforms-3/214653246961eb5c1972a874a72199ce/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:26:21-76
+34        </intent>
+35        <intent>
+35-->[androidx.media2:media2-session:1.2.1] /home/noob_coder/.gradle/caches/transforms-3/214653246961eb5c1972a874a72199ce/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:28:9-30:18
+36            <action android:name="androidx.media2.session.MediaSessionService" />
+36-->[androidx.media2:media2-session:1.2.1] /home/noob_coder/.gradle/caches/transforms-3/214653246961eb5c1972a874a72199ce/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:29:13-82
+36-->[androidx.media2:media2-session:1.2.1] /home/noob_coder/.gradle/caches/transforms-3/214653246961eb5c1972a874a72199ce/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:29:21-79
+37        </intent>
+38        <intent>
+38-->[androidx.media2:media2-session:1.2.1] /home/noob_coder/.gradle/caches/transforms-3/214653246961eb5c1972a874a72199ce/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:31:9-33:18
+39            <action android:name="androidx.media2.session.MediaLibraryService" />
+39-->[androidx.media2:media2-session:1.2.1] /home/noob_coder/.gradle/caches/transforms-3/214653246961eb5c1972a874a72199ce/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:32:13-82
+39-->[androidx.media2:media2-session:1.2.1] /home/noob_coder/.gradle/caches/transforms-3/214653246961eb5c1972a874a72199ce/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:32:21-79
+40        </intent>
+41    </queries>
+42
+43    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+43-->[com.google.android.exoplayer:exoplayer-core:2.18.7] /home/noob_coder/.gradle/caches/transforms-3/0825417601dec2fff542ae0f8ed0a5f0/transformed/jetified-exoplayer-core-2.18.7/AndroidManifest.xml:24:5-79
+43-->[com.google.android.exoplayer:exoplayer-core:2.18.7] /home/noob_coder/.gradle/caches/transforms-3/0825417601dec2fff542ae0f8ed0a5f0/transformed/jetified-exoplayer-core-2.18.7/AndroidManifest.xml:24:22-76
+44
+45    <permission
+45-->[androidx.core:core:1.13.1] /home/noob_coder/.gradle/caches/transforms-3/c4e38b11ac4811cdb0b3e516591f3abd/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+46        android:name="com.anandnet.harmonymusic.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+46-->[androidx.core:core:1.13.1] /home/noob_coder/.gradle/caches/transforms-3/c4e38b11ac4811cdb0b3e516591f3abd/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+47        android:protectionLevel="signature" />
+47-->[androidx.core:core:1.13.1] /home/noob_coder/.gradle/caches/transforms-3/c4e38b11ac4811cdb0b3e516591f3abd/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+48
+49    <uses-permission android:name="com.anandnet.harmonymusic.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+49-->[androidx.core:core:1.13.1] /home/noob_coder/.gradle/caches/transforms-3/c4e38b11ac4811cdb0b3e516591f3abd/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+49-->[androidx.core:core:1.13.1] /home/noob_coder/.gradle/caches/transforms-3/c4e38b11ac4811cdb0b3e516591f3abd/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+50
+51    <application
+52        android:name="android.app.Application"
+53        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+53-->[androidx.core:core:1.13.1] /home/noob_coder/.gradle/caches/transforms-3/c4e38b11ac4811cdb0b3e516591f3abd/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+54        android:debuggable="true"
+55        android:icon="@mipmap/ic_launcher"
+56        android:label="Harmony Music"
+57        android:requestLegacyExternalStorage="true"
+58        android:usesCleartextTraffic="true" >
+59        <activity
+60            android:name="com.ryanheise.audioservice.AudioServiceActivity"
+61            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+62            android:exported="true"
+63            android:hardwareAccelerated="true"
+64            android:launchMode="singleInstance"
+65            android:theme="@style/LaunchTheme"
+66            android:windowSoftInputMode="adjustResize" >
+67
+68            <!--
+69                 Specifies an Android theme to apply to this Activity as soon as
+70                 the Android process has started. This theme is visible to the user
+71                 while the Flutter UI initializes. After that, this theme continues
+72                 to determine the Window background behind the Flutter UI.
+73            -->
+74            <meta-data
+75                android:name="io.flutter.embedding.android.NormalTheme"
+76                android:resource="@style/NormalTheme" />
+77            <meta-data
+78                android:name="io.flutter.embedding.android.EnableImpeller"
+79                android:value="true" />
+80
+81            <intent-filter>
+82                <action android:name="android.intent.action.MAIN" />
+83
+84                <category android:name="android.intent.category.LAUNCHER" />
+85            </intent-filter>
+86
+87            <!-- App Link plugin intent-filter -->
+88            <intent-filter android:autoVerify="true" >
+89                <action android:name="android.intent.action.VIEW" />
+90
+91                <category android:name="android.intent.category.BROWSABLE" />
+92                <category android:name="android.intent.category.DEFAULT" />
+93
+94                <data
+94-->[:file_picker] /home/noob_coder/Desktop/Bonk-Tune/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+95                    android:host="music.youtube.com"
+96                    android:scheme="https" />
+97                <data
+97-->[:file_picker] /home/noob_coder/Desktop/Bonk-Tune/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+98                    android:host="m.youtube.com"
+99                    android:scheme="https" />
+100                <data
+100-->[:file_picker] /home/noob_coder/Desktop/Bonk-Tune/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+101                    android:host="www.youtube.com"
+102                    android:scheme="https" />
+103                <data
+103-->[:file_picker] /home/noob_coder/Desktop/Bonk-Tune/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+104                    android:host="youtu.be"
+105                    android:scheme="https" />
+106                <data
+106-->[:file_picker] /home/noob_coder/Desktop/Bonk-Tune/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+107                    android:host="youtube.com"
+108                    android:scheme="https" />
+109            </intent-filter>
+110            <intent-filter>
+111                <action android:name="android.intent.action.SEND" />
+112
+113                <category android:name="android.intent.category.DEFAULT" />
+114
+115                <data android:mimeType="text/plain" />
+115-->[:file_picker] /home/noob_coder/Desktop/Bonk-Tune/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+115-->[:file_picker] /home/noob_coder/Desktop/Bonk-Tune/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:19-41
+116            </intent-filter>
+117            <intent-filter>
+118                <action android:name="android.intent.action.VIEW" />
+119
+120                <category android:name="android.intent.category.BROWSABLE" />
+121                <category android:name="android.intent.category.DEFAULT" />
+122
+123                <data
+123-->[:file_picker] /home/noob_coder/Desktop/Bonk-Tune/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+124                    android:host="music.youtube.com"
+125                    android:scheme="https" />
+126                <data
+126-->[:file_picker] /home/noob_coder/Desktop/Bonk-Tune/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+127                    android:host="m.youtube.com"
+128                    android:scheme="https" />
+129                <data
+129-->[:file_picker] /home/noob_coder/Desktop/Bonk-Tune/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+130                    android:host="www.youtube.com"
+131                    android:scheme="https" />
+132                <data
+132-->[:file_picker] /home/noob_coder/Desktop/Bonk-Tune/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+133                    android:host="youtu.be"
+134                    android:scheme="https" />
+135                <data
+135-->[:file_picker] /home/noob_coder/Desktop/Bonk-Tune/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+136                    android:host="youtube.com"
+137                    android:scheme="https" />
+138            </intent-filter>
+139        </activity>
+140        <!--
+141             Don't delete the meta-data below.
+142             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+143        -->
+144        <meta-data
+145            android:name="flutterEmbedding"
+146            android:value="2" />
+147        <meta-data
+148            android:name="com.google.android.gms.car.application"
+149            android:resource="@xml/automotive_app_desc" />
+150
+151        <service
+152            android:name="com.ryanheise.audioservice.AudioService"
+153            android:exported="true"
+154            android:foregroundServiceType="mediaPlayback" >
+155            <intent-filter>
+156                <action android:name="android.media.browse.MediaBrowserService" />
+156-->[androidx.media2:media2-session:1.2.1] /home/noob_coder/.gradle/caches/transforms-3/214653246961eb5c1972a874a72199ce/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:26:13-79
+156-->[androidx.media2:media2-session:1.2.1] /home/noob_coder/.gradle/caches/transforms-3/214653246961eb5c1972a874a72199ce/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:26:21-76
+157            </intent-filter>
+158        </service>
+159
+160        <receiver
+161            android:name="com.ryanheise.audioservice.MediaButtonReceiver"
+162            android:exported="true" >
+163            <intent-filter>
+164                <action android:name="android.intent.action.MEDIA_BUTTON" />
+165            </intent-filter>
+166        </receiver>
+167
+168        <!--
+169           Declares a provider which allows us to store files to share in
+170           '.../caches/share_plus' and grant the receiving action access
+171        -->
+172        <provider
+172-->[:share_plus] /home/noob_coder/Desktop/Bonk-Tune/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:20
+173            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+173-->[:share_plus] /home/noob_coder/Desktop/Bonk-Tune/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-77
+174            android:authorities="com.anandnet.harmonymusic.flutter.share_provider"
+174-->[:share_plus] /home/noob_coder/Desktop/Bonk-Tune/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-74
+175            android:exported="false"
+175-->[:share_plus] /home/noob_coder/Desktop/Bonk-Tune/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+176            android:grantUriPermissions="true" >
+176-->[:share_plus] /home/noob_coder/Desktop/Bonk-Tune/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-47
+177            <meta-data
+177-->[:share_plus] /home/noob_coder/Desktop/Bonk-Tune/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:68
+178                android:name="android.support.FILE_PROVIDER_PATHS"
+178-->[:share_plus] /home/noob_coder/Desktop/Bonk-Tune/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-67
+179                android:resource="@xml/flutter_share_file_paths" />
+179-->[:share_plus] /home/noob_coder/Desktop/Bonk-Tune/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-65
+180        </provider>
+181        <!--
+182           This manifest declared broadcast receiver allows us to use an explicit
+183           Intent when creating a PendingItent to be informed of the user's choice
+184        -->
+185        <receiver
+185-->[:share_plus] /home/noob_coder/Desktop/Bonk-Tune/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-34:20
+186            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+186-->[:share_plus] /home/noob_coder/Desktop/Bonk-Tune/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-82
+187            android:exported="false" >
+187-->[:share_plus] /home/noob_coder/Desktop/Bonk-Tune/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-37
+188            <intent-filter>
+188-->[:share_plus] /home/noob_coder/Desktop/Bonk-Tune/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-33:29
+189                <action android:name="EXTRA_CHOSEN_COMPONENT" />
+189-->[:share_plus] /home/noob_coder/Desktop/Bonk-Tune/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:32:17-65
+189-->[:share_plus] /home/noob_coder/Desktop/Bonk-Tune/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:32:25-62
+190            </intent-filter>
+191        </receiver>
+192
+193        <activity
+193-->[:url_launcher_android] /home/noob_coder/Desktop/Bonk-Tune/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+194            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+194-->[:url_launcher_android] /home/noob_coder/Desktop/Bonk-Tune/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+195            android:exported="false"
+195-->[:url_launcher_android] /home/noob_coder/Desktop/Bonk-Tune/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+196            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+196-->[:url_launcher_android] /home/noob_coder/Desktop/Bonk-Tune/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+197
+198        <uses-library
+198-->[androidx.window:window:1.2.0] /home/noob_coder/.gradle/caches/transforms-3/7cfc394ee23fb3612140674b5f7dda00/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+199            android:name="androidx.window.extensions"
+199-->[androidx.window:window:1.2.0] /home/noob_coder/.gradle/caches/transforms-3/7cfc394ee23fb3612140674b5f7dda00/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+200            android:required="false" />
+200-->[androidx.window:window:1.2.0] /home/noob_coder/.gradle/caches/transforms-3/7cfc394ee23fb3612140674b5f7dda00/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+201        <uses-library
+201-->[androidx.window:window:1.2.0] /home/noob_coder/.gradle/caches/transforms-3/7cfc394ee23fb3612140674b5f7dda00/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+202            android:name="androidx.window.sidecar"
+202-->[androidx.window:window:1.2.0] /home/noob_coder/.gradle/caches/transforms-3/7cfc394ee23fb3612140674b5f7dda00/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+203            android:required="false" />
+203-->[androidx.window:window:1.2.0] /home/noob_coder/.gradle/caches/transforms-3/7cfc394ee23fb3612140674b5f7dda00/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+204
+205        <provider
+205-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/noob_coder/.gradle/caches/transforms-3/51066d7d5e6ac2d73b40547be94e17a8/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+206            android:name="androidx.startup.InitializationProvider"
+206-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/noob_coder/.gradle/caches/transforms-3/51066d7d5e6ac2d73b40547be94e17a8/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:25:13-67
+207            android:authorities="com.anandnet.harmonymusic.androidx-startup"
+207-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/noob_coder/.gradle/caches/transforms-3/51066d7d5e6ac2d73b40547be94e17a8/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:26:13-68
+208            android:exported="false" >
+208-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/noob_coder/.gradle/caches/transforms-3/51066d7d5e6ac2d73b40547be94e17a8/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:27:13-37
+209            <meta-data
+209-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/noob_coder/.gradle/caches/transforms-3/51066d7d5e6ac2d73b40547be94e17a8/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+210                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+210-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/noob_coder/.gradle/caches/transforms-3/51066d7d5e6ac2d73b40547be94e17a8/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+211                android:value="androidx.startup" />
+211-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/noob_coder/.gradle/caches/transforms-3/51066d7d5e6ac2d73b40547be94e17a8/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+212            <meta-data
+212-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/b1034402487cb33e72f707dd283d21fa/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+213                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+213-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/b1034402487cb33e72f707dd283d21fa/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+214                android:value="androidx.startup" />
+214-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/b1034402487cb33e72f707dd283d21fa/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+215        </provider>
+216
+217        <receiver
+217-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/b1034402487cb33e72f707dd283d21fa/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+218            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+218-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/b1034402487cb33e72f707dd283d21fa/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+219            android:directBootAware="false"
+219-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/b1034402487cb33e72f707dd283d21fa/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+220            android:enabled="true"
+220-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/b1034402487cb33e72f707dd283d21fa/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+221            android:exported="true"
+221-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/b1034402487cb33e72f707dd283d21fa/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+222            android:permission="android.permission.DUMP" >
+222-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/b1034402487cb33e72f707dd283d21fa/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+223            <intent-filter>
+223-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/b1034402487cb33e72f707dd283d21fa/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+224                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+224-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/b1034402487cb33e72f707dd283d21fa/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+224-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/b1034402487cb33e72f707dd283d21fa/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+225            </intent-filter>
+226            <intent-filter>
+226-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/b1034402487cb33e72f707dd283d21fa/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+227                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+227-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/b1034402487cb33e72f707dd283d21fa/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+227-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/b1034402487cb33e72f707dd283d21fa/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+228            </intent-filter>
+229            <intent-filter>
+229-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/b1034402487cb33e72f707dd283d21fa/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+230                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+230-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/b1034402487cb33e72f707dd283d21fa/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+230-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/b1034402487cb33e72f707dd283d21fa/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+231            </intent-filter>
+232            <intent-filter>
+232-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/b1034402487cb33e72f707dd283d21fa/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+233                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+233-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/b1034402487cb33e72f707dd283d21fa/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+233-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/noob_coder/.gradle/caches/transforms-3/b1034402487cb33e72f707dd283d21fa/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+234            </intent-filter>
+235        </receiver>
+236    </application>
+237
+238</manifest>

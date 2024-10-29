@@ -28,10 +28,10 @@ class BottomNavBar extends StatelessWidget {
                 icon: const Icon(Icons.library_music),
                 label: modifyNgetlabel('library'.tr),
               ),
-              NavigationDestination(
-                icon: const Icon(Icons.settings),
-                label: modifyNgetlabel('settings'.tr),
-              ),
+              // NavigationDestination(
+              //   icon: const Icon(Icons.settings),
+              //   label: modifyNgetlabel('settings'.tr),
+              // ),
             ]));
   }
 

@@ -12,7 +12,6 @@ import 'screens/Search/search_screen.dart';
 
 class ScreenNavigationSetup {
   ScreenNavigationSetup._();
-
   static const id = 1;
   static const homeScreen = '/homeScreen';
   static const playlistNAlbumScreen = '/playlistNAlbumScreen';

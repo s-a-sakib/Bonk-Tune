@@ -2,7 +2,6 @@ import 'package:audio_service/audio_service.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hive/hive.dart';
-
 import '/models/media_Item_builder.dart';
 import '/ui/player/player_controller.dart';
 import '../../../utils/update_check_flag_file.dart';

@@ -2,7 +2,6 @@ import 'package:audio_service/audio_service.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hive/hive.dart';
-
 import '../../widgets/add_to_playlist.dart';
 import '/ui/widgets/sort_widget.dart';
 import '../../../models/artist.dart';

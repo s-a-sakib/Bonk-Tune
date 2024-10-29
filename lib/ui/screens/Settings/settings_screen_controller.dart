@@ -75,7 +75,7 @@ class SettingsScreenController extends GetxController {
 
   Future<void> _setInitValue() async {
     currentAppLanguageCode.value = setBox.get('currentAppLanguageCode') ?? "en";
-    isBottomNavBarEnabled.value = setBox.get("isBottomNavBarEnabled") ?? false;
+    isBottomNavBarEnabled.value = /* setBox.get("isBottomNavBarEnabled") ?? false; */ true;
     noOfHomeScreenContent.value = setBox.get("noOfHomeScreenContent") ?? 3;
     isTransitionAnimationDisabled.value =
         setBox.get("isTransitionAnimationDisabled") ?? false;
@@ -138,21 +138,35 @@ class SettingsScreenController extends GetxController {
   }
 
   void enableBottomNavBar(bool val) {
+    val = true; // Always enable
     final homeScrCon = Get.find<HomeScreenController>();
     final playerCon = Get.find<PlayerController>();
-    if (val) {
-      homeScrCon.onSideBarTabSelected(3);
-      isBottomNavBarEnabled.value = true;
-    } else {
-      isBottomNavBarEnabled.value = false;
-      homeScrCon.onSideBarTabSelected(5);
+
+    homeScrCon.onSideBarTabSelected(3);
+    isBottomNavBarEnabled.value = true;
+
+    if (!playerCon.initFlagForPlayer) {
+        playerCon.playerPanelMinHeight.value = 75.0 + Get.mediaQuery.viewPadding.bottom;
     }
-    if (!Get.find<PlayerController>().initFlagForPlayer) {
-      playerCon.playerPanelMinHeight.value =
-          val ? 75.0 : 75.0 + Get.mediaQuery.viewPadding.bottom;
-    }
-    setBox.put("isBottomNavBarEnabled", val);
-  }
+    setBox.put("isBottomNavBarEnabled", true);
+}
+
+  // void enableBottomNavBar(bool val) {
+  //   final homeScrCon = Get.find<HomeScreenController>();
+  //   final playerCon = Get.find<PlayerController>();
+  //   if (val) {
+  //     homeScrCon.onSideBarTabSelected(3);
+  //     isBottomNavBarEnabled.value = true;
+  //   } else {
+  //     isBottomNavBarEnabled.value = false;
+  //     homeScrCon.onSideBarTabSelected(5);
+  //   }
+  //   if (!Get.find<PlayerController>().initFlagForPlayer) {
+  //     playerCon.playerPanelMinHeight.value =
+  //         val ? 75.0 : 75.0 + Get.mediaQuery.viewPadding.bottom;
+  //   }
+  //   setBox.put("isBottomNavBarEnabled", val);
+  // }
 
   void toggleSlidableAction(bool val) {
     setBox.put("slidableActionEnabled", val);

@@ -1,0 +1,169 @@
+{
+  "abi": "X86_64",
+  "info": {
+    "abi": "X86_64",
+    "bitness": 64,
+    "deprecated": false,
+    "default": true
+  },
+  "cxxBuildFolder": "/home/noob_coder/.pub-cache/hosted/pub.dev/audiotags-1.4.1/android/.cxx/Debug/3g1u8q4u/x86_64",
+  "soFolder": "/home/noob_coder/Desktop/Bonk-Tune/build/audiotags/intermediates/cxx/Debug/3g1u8q4u/obj/x86_64",
+  "soRepublishFolder": "/home/noob_coder/Desktop/Bonk-Tune/build/audiotags/intermediates/cmake/debug/obj/x86_64",
+  "abiPlatformVersion": 21,
+  "cmake": {
+    "effectiveConfiguration": {
+      "inheritEnvironments": [],
+      "variables": []
+    }
+  },
+  "variant": {
+    "buildSystemArgumentList": [],
+    "cFlagsList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": [],
+    "implicitBuildTargetSet": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "module": {
+      "cxxFolder": "/home/noob_coder/.pub-cache/hosted/pub.dev/audiotags-1.4.1/android/.cxx",
+      "intermediatesBaseFolder": "/home/noob_coder/Desktop/Bonk-Tune/build/audiotags/intermediates",
+      "intermediatesFolder": "/home/noob_coder/Desktop/Bonk-Tune/build/audiotags/intermediates/cxx",
+      "gradleModulePathName": ":audiotags",
+      "moduleRootFolder": "/home/noob_coder/.pub-cache/hosted/pub.dev/audiotags-1.4.1/android",
+      "moduleBuildFile": "/home/noob_coder/.pub-cache/hosted/pub.dev/audiotags-1.4.1/android/build.gradle",
+      "makeFile": "/home/noob_coder/.pub-cache/hosted/pub.dev/audiotags-1.4.1/android/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "ndkFolder": "/home/noob_coder/Android/Sdk/ndk/28.0.12433566",
+      "ndkVersion": "28.0.12433566",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkMetaPlatforms": {
+        "min": 21,
+        "max": 35,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30,
+          "S": 31,
+          "Sv2": 32,
+          "Tiramisu": 33,
+          "UpsideDownCake": 34,
+          "VanillaIceCream": 35
+        }
+      },
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "cmakeToolchainFile": "/home/noob_coder/Android/Sdk/ndk/28.0.12433566/build/cmake/android.toolchain.cmake",
+      "cmake": {
+        "isValidCmakeAvailable": true,
+        "cmakeExe": "/home/noob_coder/Android/Sdk/cmake/3.18.1/bin/cmake",
+        "minimumCmakeVersion": "3.18.1"
+      },
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "/home/noob_coder/Android/Sdk/ndk/28.0.12433566/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/home/noob_coder/Android/Sdk/ndk/28.0.12433566/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/home/noob_coder/Android/Sdk/ndk/28.0.12433566/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/home/noob_coder/Android/Sdk/ndk/28.0.12433566/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      },
+      "project": {
+        "rootBuildGradleFolder": "/home/noob_coder/Desktop/Bonk-Tune/android",
+        "sdkFolder": "/home/noob_coder/Android/Sdk",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isPrefabEnabled": false
+      },
+      "outputOptions": [],
+      "ninjaExe": "/home/noob_coder/Android/Sdk/cmake/3.18.1/bin/ninja"
+    },
+    "prefabClassPaths": [],
+    "prefabPackages": [],
+    "prefabPackageConfigurations": [],
+    "stlType": "c++_static",
+    "optimizationTag": "Debug"
+  },
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "prefabFolder": "/home/noob_coder/.pub-cache/hosted/pub.dev/audiotags-1.4.1/android/.cxx/Debug/3g1u8q4u/prefab/x86_64",
+  "isActiveAbi": true,
+  "fullConfigurationHash": "3g1u8q4uo4y3v6x3n3z2w6f3p493g1j6w155rt1q3zr5n3x1s615t2z5f1r",
+  "configurationArguments": [
+    "-H/home/noob_coder/.pub-cache/hosted/pub.dev/audiotags-1.4.1/android",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_SYSTEM_VERSION\u003d21",
+    "-DANDROID_PLATFORM\u003dandroid-21",
+    "-DANDROID_ABI\u003dx86_64",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003dx86_64",
+    "-DANDROID_NDK\u003d/home/noob_coder/Android/Sdk/ndk/28.0.12433566",
+    "-DCMAKE_ANDROID_NDK\u003d/home/noob_coder/Android/Sdk/ndk/28.0.12433566",
+    "-DCMAKE_TOOLCHAIN_FILE\u003d/home/noob_coder/Android/Sdk/ndk/28.0.12433566/build/cmake/android.toolchain.cmake",
+    "-DCMAKE_MAKE_PROGRAM\u003d/home/noob_coder/Android/Sdk/cmake/3.18.1/bin/ninja",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/noob_coder/Desktop/Bonk-Tune/build/audiotags/intermediates/cxx/Debug/3g1u8q4u/obj/x86_64",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/home/noob_coder/Desktop/Bonk-Tune/build/audiotags/intermediates/cxx/Debug/3g1u8q4u/obj/x86_64",
+    "-DCMAKE_BUILD_TYPE\u003dDebug",
+    "-B/home/noob_coder/.pub-cache/hosted/pub.dev/audiotags-1.4.1/android/.cxx/Debug/3g1u8q4u/x86_64",
+    "-GNinja"
+  ],
+  "intermediatesParentFolder": "/home/noob_coder/Desktop/Bonk-Tune/build/audiotags/intermediates/cxx/Debug/3g1u8q4u"
+}

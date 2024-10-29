@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "gabrimatic.info.restart.restart_app-merged_res-26:/animator/fragment_fade_exit.xml",
+        "source": "gabrimatic.info.restart.restart_app-fragment-1.7.1-4:/animator/fragment_fade_exit.xml"
+    },
+    {
+        "merged": "gabrimatic.info.restart.restart_app-merged_res-26:/animator/fragment_fade_enter.xml",
+        "source": "gabrimatic.info.restart.restart_app-fragment-1.7.1-4:/animator/fragment_fade_enter.xml"
+    },
+    {
+        "merged": "gabrimatic.info.restart.restart_app-merged_res-26:/animator/fragment_close_exit.xml",
+        "source": "gabrimatic.info.restart.restart_app-fragment-1.7.1-4:/animator/fragment_close_exit.xml"
+    },
+    {
+        "merged": "gabrimatic.info.restart.restart_app-merged_res-26:/animator/fragment_open_enter.xml",
+        "source": "gabrimatic.info.restart.restart_app-fragment-1.7.1-4:/animator/fragment_open_enter.xml"
+    },
+    {
+        "merged": "gabrimatic.info.restart.restart_app-merged_res-26:/animator/fragment_open_exit.xml",
+        "source": "gabrimatic.info.restart.restart_app-fragment-1.7.1-4:/animator/fragment_open_exit.xml"
+    },
+    {
+        "merged": "gabrimatic.info.restart.restart_app-merged_res-26:/animator/fragment_close_enter.xml",
+        "source": "gabrimatic.info.restart.restart_app-fragment-1.7.1-4:/animator/fragment_close_enter.xml"
+    }
+]

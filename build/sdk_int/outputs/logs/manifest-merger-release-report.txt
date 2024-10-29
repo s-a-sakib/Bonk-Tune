@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/noob_coder/.pub-cache/git/sdk_int-91b2d4e0863de4effb2c89dd7868506cbd85a1ee/android/src/main/AndroidManifest.xml:1:1-3:12
+INJECTED from /home/noob_coder/.pub-cache/git/sdk_int-91b2d4e0863de4effb2c89dd7868506cbd85a1ee/android/src/main/AndroidManifest.xml:1:1-3:12
+INJECTED from /home/noob_coder/.pub-cache/git/sdk_int-91b2d4e0863de4effb2c89dd7868506cbd85a1ee/android/src/main/AndroidManifest.xml:1:1-3:12
+	package
+		ADDED from /home/noob_coder/.pub-cache/git/sdk_int-91b2d4e0863de4effb2c89dd7868506cbd85a1ee/android/src/main/AndroidManifest.xml:2:3-27
+		INJECTED from /home/noob_coder/.pub-cache/git/sdk_int-91b2d4e0863de4effb2c89dd7868506cbd85a1ee/android/src/main/AndroidManifest.xml
+		INJECTED from /home/noob_coder/.pub-cache/git/sdk_int-91b2d4e0863de4effb2c89dd7868506cbd85a1ee/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/noob_coder/.pub-cache/git/sdk_int-91b2d4e0863de4effb2c89dd7868506cbd85a1ee/android/src/main/AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from /home/noob_coder/.pub-cache/git/sdk_int-91b2d4e0863de4effb2c89dd7868506cbd85a1ee/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/noob_coder/.pub-cache/git/sdk_int-91b2d4e0863de4effb2c89dd7868506cbd85a1ee/android/src/main/AndroidManifest.xml
+INJECTED from /home/noob_coder/.pub-cache/git/sdk_int-91b2d4e0863de4effb2c89dd7868506cbd85a1ee/android/src/main/AndroidManifest.xml
+INJECTED from /home/noob_coder/.pub-cache/git/sdk_int-91b2d4e0863de4effb2c89dd7868506cbd85a1ee/android/src/main/AndroidManifest.xml
+INJECTED from /home/noob_coder/.pub-cache/git/sdk_int-91b2d4e0863de4effb2c89dd7868506cbd85a1ee/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/noob_coder/.pub-cache/git/sdk_int-91b2d4e0863de4effb2c89dd7868506cbd85a1ee/android/src/main/AndroidManifest.xml
+		ADDED from /home/noob_coder/.pub-cache/git/sdk_int-91b2d4e0863de4effb2c89dd7868506cbd85a1ee/android/src/main/AndroidManifest.xml
+		INJECTED from /home/noob_coder/.pub-cache/git/sdk_int-91b2d4e0863de4effb2c89dd7868506cbd85a1ee/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/noob_coder/.pub-cache/git/sdk_int-91b2d4e0863de4effb2c89dd7868506cbd85a1ee/android/src/main/AndroidManifest.xml
+		ADDED from /home/noob_coder/.pub-cache/git/sdk_int-91b2d4e0863de4effb2c89dd7868506cbd85a1ee/android/src/main/AndroidManifest.xml
+		INJECTED from /home/noob_coder/.pub-cache/git/sdk_int-91b2d4e0863de4effb2c89dd7868506cbd85a1ee/android/src/main/AndroidManifest.xml

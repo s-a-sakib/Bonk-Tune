@@ -1,0 +1,82 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ryanheise.audioservice.audio_service-merged_res-29:/values-zh-rCN/values-zh-rCN.xml",
+            "map": [
+                {
+                    "source": "/home/noob_coder/.gradle/caches/transforms-3/214653246961eb5c1972a874a72199ce/transformed/jetified-media2-session-1.2.1/res/values-zh-rCN/values-zh-rCN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,152,246,338,447",
+                        "endColumns": "96,93,91,108,112",
+                        "endOffsets": "147,241,333,442,555"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "719,816,910,1002,1111",
+                        "endColumns": "96,93,91,108,112",
+                        "endOffsets": "811,905,997,1106,1219"
+                    }
+                },
+                {
+                    "source": "/home/noob_coder/.gradle/caches/transforms-3/c4e38b11ac4811cdb0b3e516591f3abd/transformed/core-1.13.1/res/values-zh-rCN/values-zh-rCN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,147,248,342,436,529,623,719",
+                        "endColumns": "91,100,93,93,92,93,95,100",
+                        "endOffsets": "142,243,337,431,524,618,714,815"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,14",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,147,248,342,436,529,623,1224",
+                        "endColumns": "91,100,93,93,92,93,95,100",
+                        "endOffsets": "142,243,337,431,524,618,714,1320"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.ryanheise.audioservice.audio_service-mergeReleaseResources-27:/values-zh-rCN/values-zh-rCN.xml",
+            "map": [
+                {
+                    "source": "/home/noob_coder/.gradle/caches/transforms-3/214653246961eb5c1972a874a72199ce/transformed/jetified-media2-session-1.2.1/res/values-zh-rCN/values-zh-rCN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,152,246,338,447",
+                        "endColumns": "96,93,91,108,112",
+                        "endOffsets": "147,241,333,442,555"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "719,816,910,1002,1111",
+                        "endColumns": "96,93,91,108,112",
+                        "endOffsets": "811,905,997,1106,1219"
+                    }
+                },
+                {
+                    "source": "/home/noob_coder/.gradle/caches/transforms-3/c4e38b11ac4811cdb0b3e516591f3abd/transformed/core-1.13.1/res/values-zh-rCN/values-zh-rCN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,147,248,342,436,529,623,719",
+                        "endColumns": "91,100,93,93,92,93,95,100",
+                        "endOffsets": "142,243,337,431,524,618,714,815"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,14",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,147,248,342,436,529,623,1224",
+                        "endColumns": "91,100,93,93,92,93,95,100",
+                        "endOffsets": "142,243,337,431,524,618,714,1320"
+                    }
+                }
+            ]
+        }
+    ]
+}

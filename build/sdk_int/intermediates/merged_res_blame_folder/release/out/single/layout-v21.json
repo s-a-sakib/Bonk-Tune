@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.tk.sdk_int-merged_res-26:/layout-v21/notification_template_custom_big.xml",
+        "source": "com.tk.sdk_int-core-1.13.1-16:/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "com.tk.sdk_int-merged_res-26:/layout-v21/notification_action_tombstone.xml",
+        "source": "com.tk.sdk_int-core-1.13.1-16:/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "com.tk.sdk_int-merged_res-26:/layout-v21/notification_action.xml",
+        "source": "com.tk.sdk_int-core-1.13.1-16:/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "com.tk.sdk_int-merged_res-26:/layout-v21/notification_template_icon_group.xml",
+        "source": "com.tk.sdk_int-core-1.13.1-16:/layout-v21/notification_template_icon_group.xml"
+    }
+]

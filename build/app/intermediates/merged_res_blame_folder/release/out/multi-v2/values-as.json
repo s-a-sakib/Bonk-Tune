@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.anandnet.harmonymusic.app-mergeReleaseResources-30:/values-as/values-as.xml",
+            "map": [
+                {
+                    "source": "/home/noob_coder/.gradle/caches/transforms-3/214653246961eb5c1972a874a72199ce/transformed/jetified-media2-session-1.2.1/res/values-as/values-as.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,167,265,364,502",
+                        "endColumns": "111,97,98,137,144",
+                        "endOffsets": "162,260,359,497,642"
+                    },
+                    "to": {
+                        "startLines": "10,14,15,16,17",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "913,1345,1443,1542,1680",
+                        "endColumns": "111,97,98,137,144",
+                        "endOffsets": "1020,1438,1537,1675,1820"
+                    }
+                },
+                {
+                    "source": "/home/noob_coder/.gradle/caches/transforms-3/4720dda340748964c7d2e848881ab9ac/transformed/browser-1.5.0/res/values-as/values-as.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,163,269,377",
+                        "endColumns": "107,105,107,105",
+                        "endOffsets": "158,264,372,478"
+                    },
+                    "to": {
+                        "startLines": "9,11,12,13",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "805,1025,1131,1239",
+                        "endColumns": "107,105,107,105",
+                        "endOffsets": "908,1126,1234,1340"
+                    }
+                },
+                {
+                    "source": "/home/noob_coder/.gradle/caches/transforms-3/c4e38b11ac4811cdb0b3e516591f3abd/transformed/core-1.13.1/res/values-as/values-as.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,156,259,367,472,576,676,805",
+                        "endColumns": "100,102,107,104,103,99,128,100",
+                        "endOffsets": "151,254,362,467,571,671,800,901"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,18",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,156,259,367,472,576,676,1825",
+                        "endColumns": "100,102,107,104,103,99,128,100",
+                        "endOffsets": "151,254,362,467,571,671,800,1921"
+                    }
+                }
+            ]
+        }
+    ]
+}

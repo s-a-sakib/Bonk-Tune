@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.ryanheise.audioservice.audio_service-merged_res-29:/drawable-anydpi-v21/ic_call_answer_video_low.xml",
+        "source": "com.ryanheise.audioservice.audio_service-core-1.13.1-18:/drawable-anydpi-v21/ic_call_answer_video_low.xml"
+    },
+    {
+        "merged": "com.ryanheise.audioservice.audio_service-merged_res-29:/drawable-anydpi-v21/media_session_service_notification_ic_music_note.xml",
+        "source": "com.ryanheise.audioservice.audio_service-jetified-media2-session-1.2.1-2:/drawable-anydpi-v21/media_session_service_notification_ic_music_note.xml"
+    },
+    {
+        "merged": "com.ryanheise.audioservice.audio_service-merged_res-29:/drawable-anydpi-v21/media_session_service_notification_ic_skip_to_previous.xml",
+        "source": "com.ryanheise.audioservice.audio_service-jetified-media2-session-1.2.1-2:/drawable-anydpi-v21/media_session_service_notification_ic_skip_to_previous.xml"
+    },
+    {
+        "merged": "com.ryanheise.audioservice.audio_service-merged_res-29:/drawable-anydpi-v21/ic_call_answer_low.xml",
+        "source": "com.ryanheise.audioservice.audio_service-core-1.13.1-18:/drawable-anydpi-v21/ic_call_answer_low.xml"
+    },
+    {
+        "merged": "com.ryanheise.audioservice.audio_service-merged_res-29:/drawable-anydpi-v21/ic_call_answer.xml",
+        "source": "com.ryanheise.audioservice.audio_service-core-1.13.1-18:/drawable-anydpi-v21/ic_call_answer.xml"
+    },
+    {
+        "merged": "com.ryanheise.audioservice.audio_service-merged_res-29:/drawable-anydpi-v21/ic_call_decline.xml",
+        "source": "com.ryanheise.audioservice.audio_service-core-1.13.1-18:/drawable-anydpi-v21/ic_call_decline.xml"
+    },
+    {
+        "merged": "com.ryanheise.audioservice.audio_service-merged_res-29:/drawable-anydpi-v21/media_session_service_notification_ic_skip_to_next.xml",
+        "source": "com.ryanheise.audioservice.audio_service-jetified-media2-session-1.2.1-2:/drawable-anydpi-v21/media_session_service_notification_ic_skip_to_next.xml"
+    },
+    {
+        "merged": "com.ryanheise.audioservice.audio_service-merged_res-29:/drawable-anydpi-v21/ic_call_answer_video.xml",
+        "source": "com.ryanheise.audioservice.audio_service-core-1.13.1-18:/drawable-anydpi-v21/ic_call_answer_video.xml"
+    },
+    {
+        "merged": "com.ryanheise.audioservice.audio_service-merged_res-29:/drawable-anydpi-v21/media_session_service_notification_ic_play.xml",
+        "source": "com.ryanheise.audioservice.audio_service-jetified-media2-session-1.2.1-2:/drawable-anydpi-v21/media_session_service_notification_ic_play.xml"
+    },
+    {
+        "merged": "com.ryanheise.audioservice.audio_service-merged_res-29:/drawable-anydpi-v21/media_session_service_notification_ic_pause.xml",
+        "source": "com.ryanheise.audioservice.audio_service-jetified-media2-session-1.2.1-2:/drawable-anydpi-v21/media_session_service_notification_ic_pause.xml"
+    },
+    {
+        "merged": "com.ryanheise.audioservice.audio_service-merged_res-29:/drawable-anydpi-v21/ic_call_decline_low.xml",
+        "source": "com.ryanheise.audioservice.audio_service-core-1.13.1-18:/drawable-anydpi-v21/ic_call_decline_low.xml"
+    }
+]

@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/home/noob_coder/.pub-cache/hosted/pub.dev/audiotags-1.4.1/android/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/noob_coder/Android/Sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/home/noob_coder/.pub-cache/hosted/pub.dev/audiotags-1.4.1/android/.cxx/RelWithDebInfo/602t2j55/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/noob_coder/Android/Sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/home/noob_coder/.pub-cache/hosted/pub.dev/audiotags-1.4.1/android/.cxx/RelWithDebInfo/602t2j55/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}

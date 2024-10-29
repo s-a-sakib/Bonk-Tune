@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.anandnet.device_equalizer-merged_res-26:/drawable-ldpi-v4/ic_call_answer_video_low.png",
+        "source": "com.anandnet.device_equalizer-core-1.13.1-16:/drawable-ldpi-v4/ic_call_answer_video_low.png"
+    },
+    {
+        "merged": "com.anandnet.device_equalizer-merged_res-26:/drawable-ldpi-v4/ic_call_decline.png",
+        "source": "com.anandnet.device_equalizer-core-1.13.1-16:/drawable-ldpi-v4/ic_call_decline.png"
+    },
+    {
+        "merged": "com.anandnet.device_equalizer-merged_res-26:/drawable-ldpi-v4/ic_call_answer.png",
+        "source": "com.anandnet.device_equalizer-core-1.13.1-16:/drawable-ldpi-v4/ic_call_answer.png"
+    },
+    {
+        "merged": "com.anandnet.device_equalizer-merged_res-26:/drawable-ldpi-v4/ic_call_answer_low.png",
+        "source": "com.anandnet.device_equalizer-core-1.13.1-16:/drawable-ldpi-v4/ic_call_answer_low.png"
+    },
+    {
+        "merged": "com.anandnet.device_equalizer-merged_res-26:/drawable-ldpi-v4/ic_call_decline_low.png",
+        "source": "com.anandnet.device_equalizer-core-1.13.1-16:/drawable-ldpi-v4/ic_call_decline_low.png"
+    },
+    {
+        "merged": "com.anandnet.device_equalizer-merged_res-26:/drawable-ldpi-v4/ic_call_answer_video.png",
+        "source": "com.anandnet.device_equalizer-core-1.13.1-16:/drawable-ldpi-v4/ic_call_answer_video.png"
+    }
+]

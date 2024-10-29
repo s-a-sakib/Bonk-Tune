@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "gabrimatic.info.restart.restart_app-merged_res-26:/drawable-ldpi-v4/ic_call_decline_low.png",
+        "source": "gabrimatic.info.restart.restart_app-core-1.13.1-16:/drawable-ldpi-v4/ic_call_decline_low.png"
+    },
+    {
+        "merged": "gabrimatic.info.restart.restart_app-merged_res-26:/drawable-ldpi-v4/ic_call_answer_low.png",
+        "source": "gabrimatic.info.restart.restart_app-core-1.13.1-16:/drawable-ldpi-v4/ic_call_answer_low.png"
+    },
+    {
+        "merged": "gabrimatic.info.restart.restart_app-merged_res-26:/drawable-ldpi-v4/ic_call_answer.png",
+        "source": "gabrimatic.info.restart.restart_app-core-1.13.1-16:/drawable-ldpi-v4/ic_call_answer.png"
+    },
+    {
+        "merged": "gabrimatic.info.restart.restart_app-merged_res-26:/drawable-ldpi-v4/ic_call_answer_video.png",
+        "source": "gabrimatic.info.restart.restart_app-core-1.13.1-16:/drawable-ldpi-v4/ic_call_answer_video.png"
+    },
+    {
+        "merged": "gabrimatic.info.restart.restart_app-merged_res-26:/drawable-ldpi-v4/ic_call_answer_video_low.png",
+        "source": "gabrimatic.info.restart.restart_app-core-1.13.1-16:/drawable-ldpi-v4/ic_call_answer_video_low.png"
+    },
+    {
+        "merged": "gabrimatic.info.restart.restart_app-merged_res-26:/drawable-ldpi-v4/ic_call_decline.png",
+        "source": "gabrimatic.info.restart.restart_app-core-1.13.1-16:/drawable-ldpi-v4/ic_call_decline.png"
+    }
+]

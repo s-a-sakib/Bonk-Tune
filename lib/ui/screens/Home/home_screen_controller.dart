@@ -56,31 +56,50 @@ class HomeScreenController extends GetxController {
   }
 
   Future<bool> loadContentFromDb() async {
+    
+    /* The lower code is Written by Sakib */
     final homeScreenData = await Hive.openBox("homeScreenData");
-    if (homeScreenData.keys.isNotEmpty) {
-      final String quickPicksType = homeScreenData.get("quickPicksType");
-      final List quickPicksData = homeScreenData.get("quickPicks");
-      final List middleContentData = homeScreenData.get("middleContent") ?? [];
-      final List fixedContentData = homeScreenData.get("fixedContent") ?? [];
-      quickPicks.value = QuickPicks(
-          quickPicksData.map((e) => MediaItemBuilder.fromJson(e)).toList(),
-          title: quickPicksType);
-      middleContent.value = middleContentData
-          .map((e) => e["type"] == "Album Content"
-              ? AlbumContent.fromJson(e)
-              : PlaylistContent.fromJson(e))
-          .toList();
-      fixedContent.value = fixedContentData
-          .map((e) => e["type"] == "Album Content"
-              ? AlbumContent.fromJson(e)
-              : PlaylistContent.fromJson(e))
-          .toList();
-      isContentFetched.value = true;
-      printINFO("Loaded from offline db");
-      return true;
-    } else {
-      return false;
+    if(homeScreenData.keys.isNotEmpty) {
+    final String quickPicksType = homeScreenData.get("quickPicksType");
+    final List quickPicksData = homeScreenData.get("quickPicks");
+    
+    // Load only QuickPicks from the DB
+    quickPicks.value = QuickPicks(
+        quickPicksData.map((e) => MediaItemBuilder.fromJson(e)).toList(),
+        title: quickPicksType);
+        isContentFetched.value = true;
+        return true;
+      }else{
+        return false;
     }
+
+    /* Commented out by sakib */
+
+    // final homeScreenData = await Hive.openBox("homeScreenData");
+    // if (homeScreenData.keys.isNotEmpty) {
+    //   final String quickPicksType = homeScreenData.get("quickPicksType");
+    //   final List quickPicksData = homeScreenData.get("quickPicks");
+    //   final List middleContentData = homeScreenData.get("middleContent") ?? [];
+    //   final List fixedContentData = homeScreenData.get("fixedContent") ?? [];
+    //   quickPicks.value = QuickPicks(
+    //       quickPicksData.map((e) => MediaItemBuilder.fromJson(e)).toList(),
+    //       title: quickPicksType);
+    //   middleContent.value = middleContentData
+    //       .map((e) => e["type"] == "Album Content"
+    //           ? AlbumContent.fromJson(e)
+    //           : PlaylistContent.fromJson(e))
+    //       .toList();
+    //   fixedContent.value = fixedContentData
+    //       .map((e) => e["type"] == "Album Content"
+    //           ? AlbumContent.fromJson(e)
+    //           : PlaylistContent.fromJson(e))
+    //       .toList();
+    //   isContentFetched.value = true;
+    //   printINFO("Loaded from offline db");
+    //   return true;
+    // } else {
+    //   return false;
+    // }
   }
 
   Future<void> loadContentFromNetwork({bool silent = false}) async {
@@ -108,7 +127,9 @@ class HomeScreenController extends GetxController {
               title: con['title']);
           middleContentTemp.addAll(charts);
         }
-      } else if (contentType == "TMV") {
+      } 
+      /* middle content commenting
+      else if (contentType == "TMV") {
         final index = homeContentListMap
             .indexWhere((element) => element['title'] == "Top music videos");
         if (index != -1 && index != 0) {
@@ -142,11 +163,14 @@ class HomeScreenController extends GetxController {
 
       middleContent.value = _setContentList(middleContentTemp);
       fixedContent.value = _setContentList(homeContentListMap);
-
+      */
       isContentFetched.value = true;
 
       // set home content last update time
-      cachedHomeScreenData(updateAll: true);
+
+      cachedHomeScreenData(updateQuickPicksNMiddleContent: true);
+
+      //cachedHomeScreenData(updateAll: true);
       await Hive.box("AppPrefs")
           .put("homeScreenDataTime", DateTime.now().millisecondsSinceEpoch);
       // ignore: unused_catch_stack
@@ -296,24 +320,35 @@ class HomeScreenController extends GetxController {
 
     final homeScreenData = Hive.box("homeScreenData");
 
-    if (updateQuickPicksNMiddleContent) {
-      await homeScreenData.putAll({
-        "quickPicksType": quickPicks.value.title,
-        "quickPicks": _getContentDataInJson(quickPicks.value.songList,
-            isQuickPicks: true),
-        "middleContent": _getContentDataInJson(middleContent.toList()),
-      });
-    } else if (updateAll) {
-      await homeScreenData.putAll({
-        "quickPicksType": quickPicks.value.title,
-        "quickPicks": _getContentDataInJson(quickPicks.value.songList,
-            isQuickPicks: true),
-        "middleContent": _getContentDataInJson(middleContent.toList()),
-        "fixedContent": _getContentDataInJson(fixedContent.toList())
-      });
-    }
+    /* Sakib commented out */
+    // if (updateQuickPicksNMiddleContent) {
+    //   await homeScreenData.putAll({
+    //     "quickPicksType": quickPicks.value.title,
+    //     "quickPicks": _getContentDataInJson(quickPicks.value.songList,
+    //         isQuickPicks: true),
+    //     "middleContent": _getContentDataInJson(middleContent.toList()),
+    //   });
+    // } else if (updateAll) {
+    //   await homeScreenData.putAll({
+    //     "quickPicksType": quickPicks.value.title,
+    //     "quickPicks": _getContentDataInJson(quickPicks.value.songList,
+    //         isQuickPicks: true),
+    //     "middleContent": _getContentDataInJson(middleContent.toList()),
+    //     "fixedContent": _getContentDataInJson(fixedContent.toList())
+    //   });
+    // }
 
-    printINFO("Saved Homescreen data data");
+    /* Sakib write down it */
+     if (updateQuickPicksNMiddleContent || updateAll) {
+    await homeScreenData.putAll({
+      "quickPicksType": quickPicks.value.title,
+      "quickPicks": _getContentDataInJson(quickPicks.value.songList,
+          isQuickPicks: true),
+    });
+  }
+  
+
+    //printINFO("Saved Homescreen data data");
   }
 
   List<Map<String, dynamic>> _getContentDataInJson(List content,

@@ -53,7 +53,7 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Harmony Music"
+        android:label="Bonk Tune"
         android:requestLegacyExternalStorage="true"
         android:usesCleartextTraffic="true" >
         <activity

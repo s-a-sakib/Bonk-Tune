@@ -1,8 +1,6 @@
 import 'dart:ui';
-
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
-
 import '/ui/player/components/gesture_player.dart';
 import '/ui/player/components/standard_player.dart';
 import '/ui/screens/Settings/settings_screen_controller.dart';

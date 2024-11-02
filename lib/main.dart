@@ -19,7 +19,6 @@ import 'ui/screens/Home/home_screen_controller.dart';
 import 'ui/screens/Library/library_controller.dart';
 import 'utils/system_tray.dart';
 import 'utils/update_check_flag_file.dart';
-
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await initHive();

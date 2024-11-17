@@ -92,7 +92,7 @@
 53        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 53-->[androidx.core:core:1.13.1] /home/noob_coder/.gradle/caches/transforms-3/c4e38b11ac4811cdb0b3e516591f3abd/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 54        android:debuggable="true"
-55        android:icon="@mipmap/launcher_icon"
+55        android:icon="@mipmap/ic_launcher"
 56        android:label="Bonk Tune"
 57        android:requestLegacyExternalStorage="true"
 58        android:usesCleartextTraffic="true" >

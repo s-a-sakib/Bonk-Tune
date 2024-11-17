@@ -84,6 +84,10 @@
         "source": "/home/noob_coder/.gradle/daemon/7.5/com.anandnet.harmonymusic.app-main-26:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
+        "merged": "com.anandnet.harmonymusic.app-merged_res-32:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.anandnet.harmonymusic.app-main-26:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
         "merged": "/home/noob_coder/.gradle/daemon/7.5/com.anandnet.harmonymusic.app-merged_res-32:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
         "source": "/home/noob_coder/.gradle/daemon/7.5/com.anandnet.harmonymusic.app-main-26:/mipmap-xhdpi/ic_launcher_foreground.png"
     },

@@ -1,0 +1,11 @@
+{
+  "ndk": "/home/noob_coder/Android/Sdk/ndk/28.0.12433566",
+  "revision": {
+    "mMajor": 28,
+    "mMinor": 0,
+    "mMicro": 12433566,
+    "mPreview": 0,
+    "mPrecision": "MICRO",
+    "mPreviewSeparator": " "
+  }
+}

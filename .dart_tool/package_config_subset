@@ -94,6 +94,14 @@ characters
 2.12
 file:///home/noob_coder/.pub-cache/hosted/pub.dev/characters-1.3.0/
 file:///home/noob_coder/.pub-cache/hosted/pub.dev/characters-1.3.0/lib/
+checked_yaml
+2.19
+file:///home/noob_coder/.pub-cache/hosted/pub.dev/checked_yaml-2.0.3/
+file:///home/noob_coder/.pub-cache/hosted/pub.dev/checked_yaml-2.0.3/lib/
+cli_util
+3.4
+file:///home/noob_coder/.pub-cache/hosted/pub.dev/cli_util-0.4.2/
+file:///home/noob_coder/.pub-cache/hosted/pub.dev/cli_util-0.4.2/lib/
 clock
 2.12
 file:///home/noob_coder/.pub-cache/hosted/pub.dev/clock-1.1.1/
@@ -174,6 +182,10 @@ flutter_keyboard_visibility_windows
 2.12
 file:///home/noob_coder/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility_windows-1.0.0/
 file:///home/noob_coder/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility_windows-1.0.0/lib/
+flutter_launcher_icons
+3.0
+file:///home/noob_coder/.pub-cache/hosted/pub.dev/flutter_launcher_icons-0.14.1/
+file:///home/noob_coder/.pub-cache/hosted/pub.dev/flutter_launcher_icons-0.14.1/lib/
 flutter_lints
 3.1
 file:///home/noob_coder/.pub-cache/hosted/pub.dev/flutter_lints-4.0.0/

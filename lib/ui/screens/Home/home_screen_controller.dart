@@ -152,6 +152,7 @@ class HomeScreenController extends GetxController {
           middleContentTemp.addAll(rel);
         }
       }
+      */
 
       if (quickPicks.value.songList.isEmpty) {
         final index = homeContentListMap
@@ -160,7 +161,7 @@ class HomeScreenController extends GetxController {
         quickPicks.value = QuickPicks(List<MediaItem>.from(con["contents"]),
             title: "Quick picks");
       }
-
+      /*
       middleContent.value = _setContentList(middleContentTemp);
       fixedContent.value = _setContentList(homeContentListMap);
       */
